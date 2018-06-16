@@ -23,7 +23,7 @@ public class OneTest {
   }
 
   private List<String> readOutFile() {
-    File file = new File("out.txt");
+    File file = new File("in.txt");
     FileInputStream is;
     List<String> list = new ArrayList<String>();
     try {
